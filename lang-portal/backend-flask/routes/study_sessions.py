@@ -151,7 +151,74 @@ def load(app):
     except Exception as e:
       return jsonify({"error": str(e)}), 500
 
-  # todo POST /study_sessions/:id/review
+  @app.route('/api/study-sessions', methods=['POST'])
+  @cross_origin()
+  def create_study_session():
+    try:
+        data = request.get_json()
+        group_id = data.get('group_id')
+        study_activity_id = data.get('study_activity_id')
+
+        if not group_id or not study_activity_id:
+            return jsonify({"error": "group_id and study_activity_id are required"}), 400
+
+        cursor = app.db.cursor()
+
+        # Insert a new study session
+        cursor.execute('''
+            INSERT INTO study_sessions (group_id, study_activity_id, created_at)
+            VALUES (?, ?, datetime('now'))
+        ''', (group_id, study_activity_id))
+
+        # Commit the transaction
+        app.db.commit()
+
+        # Get the ID of the newly created study session
+        study_session_id = cursor.lastrowid
+
+        return jsonify({
+            "message": "Study session created successfully",
+            "study_session_id": study_session_id
+        }), 201
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+  @app.route('/api/study-sessions/<id>/review', methods=['POST'])
+  @cross_origin()
+  def review_study_session(id):
+    try:
+        data = request.get_json()
+        word_id = data.get('word_id')
+        correct = data.get('correct')
+
+        if word_id is None or correct is None:
+            return jsonify({"error": "word_id and correct are required"}), 400
+
+        cursor = app.db.cursor()
+
+        # Check if the study session exists
+        cursor.execute('SELECT id FROM study_sessions WHERE id = ?', (id,))
+        session = cursor.fetchone()
+        if not session:
+            return jsonify({"error": "Study session not found"}), 404
+
+        # Insert a review item for the word in the study session
+        cursor.execute('''
+            INSERT INTO word_review_items (study_session_id, word_id, correct, reviewed_at)
+            VALUES (?, ?, ?, datetime('now'))
+        ''', (id, word_id, correct))
+
+        # Commit the transaction
+        app.db.commit()
+
+        return jsonify({
+            "message": "Review item added successfully",
+            "study_session_id": id,
+            "word_id": word_id,
+            "correct": correct
+        }), 201
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
   @app.route('/api/study-sessions/reset', methods=['POST'])
   @cross_origin()
