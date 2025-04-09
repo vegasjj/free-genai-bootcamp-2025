@@ -3,6 +3,8 @@ purpose I hit a wall when I had to workout all the dependencies from AWS, Azure 
 
 ![The listening comprehension app with errors](front-end-with-errors.png)
 
+![Coding environment](<Github Codespaces environment.png>)
+
 
 ## How to run frontend
 
