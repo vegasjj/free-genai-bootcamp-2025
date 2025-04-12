@@ -1,0 +1,95 @@
+## World: Cafe Theme
+
+### Room 1: Entrance (エントランス/Entoransu)
+A welcoming area where customers enter the cafe. 
+- Vocabulary:
+  - 扉 (tobira) - Door
+  - 傘立て (kasatate) - Umbrella stand
+  - メニューボード (menyūbōdo) - Menu board
+
+### Room 2: Main Seating Area (メインシーティングエリア/Mein shītingu eria)
+A comfortable and stylish space for customers to enjoy their orders.
+- Vocabulary:
+  - テーブル (tēburu) - Table
+  - 椅子 (isu) - Chair
+  - 窓 (mado) - Window
+
+### Room 3: Counter (カウンター/Kauntā)
+Where customers place their orders and baristas prepare beverages.
+- Vocabulary:
+  - レジスター (rejisutā) - Cash register
+  - コーヒーマシン (kōhī mashin) - Coffee machine
+  - ペストリーケース (pesutorī kēsu) - Pastry case
+
+### Room 4: Kitchen (キッチン/Kitchin)
+Where the cafe's food is prepared, not usually accessible to customers.
+- Vocabulary:
+  - レンジ (renji) - Microwave
+  - 冷蔵庫 (reizōko) - Refrigerator
+  - ストーブ (sutōbu) - Stove
+
+### Room 5: Restrooms (トイレ/Toire)
+A necessary facility for both staff and customers.
+- Vocabulary:
+  - トイレットペーパー (toiretto pēpā) - Toilet paper
+  - 手洗い (tearai) - Sink
+  - ハンドドライヤー (handodoraiyā) - Hand dryer
+
+### Room 6: Patio (パティオ/Patio)
+An outdoor seating area for customers to enjoy their beverages and meals.
+- Vocabulary:
+  - パラソル (parasoru) - Parasol
+  - ベンチ (benchi) - Bench
+  - プランター (purantā) - Planter
+
+### Room Connections:
+- Entrance connects to Main Seating Area and Counter
+- Main Seating Area connects to Entrance and Patio
+- Counter connects to Entrance and Kitchen
+- Kitchen connects to Counter
+- Restrooms connects to Main Seating Area
+- Patio connects to Main Seating Area
+
+### NPCs and Conversation Vocabulary
+
+1. Yumi - Barista
+   Location: Counter
+   Vocabulary:
+   - 注文 (chūmon) - Order
+   - ドリップ (dorippu) - Drip (method of coffee brewing)
+   - エスプレッソ (esupuresso) - Espresso
+
+2. Hiroshi - Cook
+   Location: Kitchen
+   Vocabulary:
+   - 材料 (zairyō) - Ingredients
+   - 仕込み (shikomi) - Prep work
+   - 料理 (ryōri) - Cooking
+
+3. Keiko - Waitress
+   Location: Main Seating Area
+   Vocabulary:
+   - 空く (aku) - To become available
+   - クリーニング (kurīningu) - Cleaning
+   - サービス (sābisu) - Service
+
+4. Takeshi - Regular Customer
+   Location: Patio
+   Vocabulary:
+   - おすすめ (osusume) - Recommendation
+   - 予約 (yoyaku) - Reservation
+   - 定番 (teiban) - Standard menu item
+
+### Example Interactions:
+1. "メニューボードを見る" (Look at the menu board) at Entrance
+2. "テーブルに座る" (Sit at the table) at Main Seating Area
+3. "コーヒーマシンを使う" (Use the coffee machine) at Counter
+4. "冷蔵庫を開ける" (Open the refrigerator) at Kitchen
+5. "トイレットペーパーを取る" (Take toilet paper) at Restrooms
+6. "パラソルを開く" (Open the parasol) at Patio
+
+### NPC Interaction Examples:
+1. "ユミに注文をする" (Place an order with Yumi) at Counter
+2. "ヒロシに材料を尋ねる" (Ask Hiroshi about the ingredients) at Kitchen
+3. "ケイコにテーブルのクリーニングを頼む" (Ask Keiko to clean the table) at Main Seating Area
+4. "タケシにおすすめを聞く" (Ask Takeshi for a recommendation) at Patio

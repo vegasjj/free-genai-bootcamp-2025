@@ -1,0 +1,101 @@
+## World: Hardware Store
+
+### Room 1: Entrance (入口 / Iriguchi)
+A welcoming entrance with sliding glass doors and a few promotional displays.
+- Vocabulary:
+  - 入口 (Iriguchi) - Entrance
+  - ドア (Doa) - Door
+  - ディスプレイ (Disupurei) - Display
+  - ポスター (Posutā) - Poster
+
+### Room 2: Tool Section (工具コーナー / Kōgu kōnā)
+A section dedicated to various hand and power tools.
+- Vocabulary:
+  - 工具 (Kōgu) - Tools
+  - ハンマー (Hanmā) - Hammer
+  - ドライバー (Doraibā) - Screwdriver
+  - 電動ドリル (Dendō doriru) - Power drill
+
+### Room 3: Paint Section (ペンキコーナー / Penki kōnā)
+A colorful section with an array of paints and brushes.
+- Vocabulary:
+  - ペンキ (Penki) - Paint
+  - ブラシ (Burashi) - Brush
+  - ローラー (Rōrā) - Roller
+  - 色見本 (Iromihon) - Color swatch
+
+### Room 4: Electrical Section (電気製品コーナー / Denki seihin kōnā)
+A section with electrical items like cables, light bulbs, and extension cords.
+- Vocabulary:
+  - 電球 (Denkyū) - Light bulb
+  - 電気コード (Denki kōdo) - Electrical cord
+  - 電源タップ (Dengen tappu) - Power strip
+  - 電池 (Denchi) - Battery
+
+### Room 5: Plumbing Section (配管部品コーナー / Haikan buhin kōnā)
+A section with plumbing parts like pipes, faucets, and fittings.
+- Vocabulary:
+  - 配管 (Haikan) - Plumbing
+  - パイプ (Paipu) - Pipe
+  - 蛇口 (Jaguchi) - Faucet
+  - フィッティング (Fittingu) - Fitting
+
+### Room 6: Checkout (レジ / Reji)
+The checkout counter where customers pay for their purchases.
+- Vocabulary:
+  - レジ (Reji) - Cash register
+  - お金 (Okane) - Money
+  - レシート (Reshīto) - Receipt
+  - 買い物袋 (Kaimono bukuro) - Shopping bag
+
+### Room Connections:
+- Entrance connects to Tool Section and Checkout
+- Tool Section connects to Paint Section and Electrical Section
+- Paint Section connects to Electrical Section
+- Electrical Section connects to Plumbing Section
+- Plumbing Section connects to Checkout
+- Checkout connects to Entrance
+
+### NPCs and Conversation Vocabulary:
+
+1. Yamada-san - Store Manager
+   Location: Entrance
+   Vocabulary:
+   - 売上 (Uriage) - Sales
+   - 営業時間 (Eigyō jikan) - Business hours
+   - 販促 (Hansoku) - Promotion
+
+2. Suzuki-san - Tool Section Supervisor
+   Location: Tool Section
+   Vocabulary:
+   - 手頃な価格 (Tegoro na kakaku) - Affordable price
+   - 品質 (Hinshitsu) - Quality
+   - 保証 (Hoshō) - Warranty
+
+3. Tanaka-san - Paint Section Supervisor
+   Location: Paint Section
+   Vocabulary:
+   - 色合い (Iroai) - Hue
+   - 乾燥時間 (Kansō jikan) - Drying time
+   - 一缶 (Ippō) - One can
+
+4. Watanabe-san - Checkout Clerk
+   Location: Checkout
+   Vocabulary:
+   - 会計 (Kaikei) - Checkout
+   - 支払い方法 (Shiharai hōhō) - Payment method
+   - ポイントカード (Pointo kādo) - Point card
+
+### Example Interactions:
+1. "ドアを開けます。" (I open the door.) at Entrance
+2. "ハンマーを持ちます。" (I pick up the hammer.) at Tool Section
+3. "ペンキを見ます。" (I look at the paint.) at Paint Section
+4. "電球を変えます。" (I change the light bulb.) at Electrical Section
+5. "パイプを測ります。" (I measure the pipe.) at Plumbing Section
+6. "お金を数えます。" (I count the money.) at Checkout
+
+### NPC Interaction Examples:
+1. "山田さん、営業時間を教えてください。" (Yamada-san, please tell me the business hours.) with Yamada-san
+2. "鈴木さん、このハンマーの保証はありますか。" (Suzuki-san, is there a warranty for this hammer?) with Suzuki-san
+3. "田中さん、このペンキは何時間で乾きますか。" (Tanaka-san, how long does this paint take to dry?) with Tanaka-san
+4. "渡辺さん、ポイントカードはありますか。" (Watanabe-san, do you have a point card?) with Watanabe-san

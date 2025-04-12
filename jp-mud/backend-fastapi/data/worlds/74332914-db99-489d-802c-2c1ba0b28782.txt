@@ -1,0 +1,100 @@
+## World: Hardware Store Theme
+
+### Room 1: Entrance (入口/iriguchi)
+This is the main entrance of the hardware store, filled with promotional items and brochures.
+- Vocabulary:
+  - 入口 (iriguchi) - entrance
+  - ブロシュア (buroshua) - brochure
+  - カート (ka-to) - cart
+  - 店員 (tenin) - store clerk
+
+### Room 2: Tools Section (工具セクション/kougu sekushon)
+This area is filled with all kinds of tools needed for home repairs and construction.
+- Vocabulary:
+  - ハンマー (hanma-) - hammer
+  - ドライバー (doraiba-) - screwdriver
+  - レンチ (renchi) - wrench
+  - ニッパー (nip pa-) - pliers
+
+### Room 3: Paint Section (塗料セクション/toryou sekushon)
+This area contains a variety of paints, brushes and other painting supplies.
+- Vocabulary:
+  - 塗料 (toryou) - paint
+  - ブラシ (burashi) - brush
+  - ローラー (ro-ra-) - roller
+  - パレット (paretto) - palette
+
+### Room 4: Electrical Section (電気製品セクション/denki seihin sekushon)
+This area contains electrical items such as wires, plugs, and light bulbs.
+- Vocabulary:
+  - 電球 (denkyuu) - light bulb
+  - プラグ (puragu) - plug
+  - 配線 (haisen) - wiring
+  - 電池 (denchi) - battery
+
+### Room 5: Plumbing Section (配管セクション/haikan sekushon)
+This area contains various plumbing materials including pipes, faucets, and wrenches.
+- Vocabulary:
+  - パイプ (paipu) - pipe
+  - 蛇口 (jaguchi) - faucet
+  - プランジャー (puranja-) - plunger
+  - テープ (te-pu) - tape
+
+### Room 6: Checkout Counter (レジカウンター/reji kaunta-)
+This is where customers pay for their purchases and ask for assistance.
+- Vocabulary:
+  - レジ (reji) - cash register
+  - 会計 (kaikei) - payment
+  - レシート (reshi-to) - receipt
+  - 袋 (fukuro) - bag
+
+### Room Connections:
+- Entrance connects to Tools Section and Paint Section
+- Tools Section connects to Electrical Section and Plumbing Section
+- Paint Section connects to Electrical Section
+- Electrical Section connects to Checkout Counter
+- Plumbing Section connects to Checkout Counter
+
+### NPCs and Conversation Vocabulary
+
+1. Yamada-san - Store Clerk
+   Location: Entrance
+   Vocabulary:
+   - お客様 (okyakusama) - customer
+   - 推奨商品 (suisou shouhin) - recommended product
+   - 営業時間 (eigyou jikan) - business hours
+
+2. Suzuki-san - Tools Specialist
+   Location: Tools Section
+   Vocabulary:
+   - 品質 (hinshitsu) - quality
+   - 耐久性 (taikyusei) - durability
+   - 使用方法 (shiyouhouhou) - how to use
+
+3. Tanaka-san - Paint Expert
+   Location: Paint Section
+   Vocabulary:
+   - 色合い (iroai) - color tone
+   - 乾燥時間 (kansou jikan) - drying time
+   - 塗り方 (nurikata) - how to paint
+
+4. Satou-san - Cashier
+   Location: Checkout Counter
+   Vocabulary:
+   - 割引 (waribiki) - discount
+   - お釣り (otsuri) - change
+   - ポイントカード (pointo ka-do) - point card
+
+### Example Interactions:
+1. "ハンマーを見つけます" (I find a hammer) at Tools Section
+2. "ブラシを持ちます" (I hold a brush) at Paint Section
+3. "電球を交換します" (I replace a light bulb) at Electrical Section
+4. "パイプを測ります" (I measure a pipe) at Plumbing Section
+5. "レジで会計します" (I pay at the cash register) at Checkout Counter
+6. "店員に質問します" (I ask the store clerk) at Entrance
+
+### NPC Interaction Examples:
+1. "山田さんに推奨商品を尋ねます" (I ask Yamada-san about the recommended product) at Entrance
+2. "鈴木さんにドライバーの使用方法を聞きます" (I ask Suzuki-san how to use the screwdriver) at Tools Section
+3. "田中さんに塗り方を教えてもらいます" (I learn how to paint from Tanaka-san) at Paint Section
+4. "佐藤さんにポイントカードを見せます" (I show the point card to Satou-san) at Checkout Counter

@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 transition-colors;
+  }
+  
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+  
+  /* Form elements */
+  input, textarea, select {
+    @apply border-gray-300 bg-white text-gray-900 transition-colors;
+  }
+  
+  .dark input, .dark textarea, .dark select {
+    @apply border-gray-700 bg-gray-800 text-gray-100;
+  }
+  
+  /* Buttons */
+  button {
+    @apply font-medium transition-colors;
+  }
+  
+  /* Links */
+  a {
+    @apply text-primary hover:text-primary-hover transition-colors;
+  }
+}
+
+/* Component-specific styles */
+@layer components {
+  /* App container */
+  .app-container {
+    @apply min-h-screen bg-gray-50 transition-colors;
+  }
+  
+  .dark .app-container {
+    @apply bg-gray-900;
+  }
+  
+  /* Game components */
+  .app-title {
+    @apply text-2xl font-bold text-gray-900 transition-colors;
+  }
+  
+  .dark .app-title {
+    @apply text-white;
+  }
+  
+  .app-theme {
+    @apply text-gray-600 transition-colors;
+  }
+  
+  .dark .app-theme {
+    @apply text-gray-400;
+  }
+  
+  .theme-dropdown {
+    @apply bg-white border-gray-300 text-gray-900 transition-colors;
+  }
+  
+  .dark .theme-dropdown {
+    @apply bg-gray-800 border-gray-700 text-white;
+  }
+  
+  .app-button {
+    @apply px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors;
+  }
+  
+  .dark .app-button {
+    @apply bg-blue-600 hover:bg-blue-700;
+  }
+  
+  .welcome-container {
+    @apply bg-white p-6 rounded-lg shadow-md transition-colors;
+  }
+  
+  .dark .welcome-container {
+    @apply bg-gray-800 text-white;
+  }
+  /* Header */
+  header {
+    @apply bg-white border-gray-200 transition-colors dark:bg-gray-900 dark:border-gray-700;
+  }
+  
+  /* Main content area */
+  main {
+    @apply bg-gray-50 transition-colors dark:bg-gray-800;
+  }
+  
+  /* Footer */
+  footer {
+    @apply bg-white border-gray-200 transition-colors dark:bg-gray-900 dark:border-gray-700;
+  }
+  
+  /* Chat messages */
+  .user-message {
+    @apply bg-primary text-white;
+  }
+  
+  .bot-message {
+    @apply bg-gray-200 text-gray-900 dark:bg-gray-700 dark:text-gray-100;
+  }
+  
+  /* App container */
+  .app-container {
+    @apply flex flex-col h-screen;
+  }
+  
+  /* Header */
+  .app-header {
+    @apply p-4 border-b flex justify-between items-center bg-white dark:bg-gray-900 dark:border-gray-700;
+  }
+  
+  .app-title {
+    @apply text-3xl font-bold text-gray-900 dark:text-gray-100;
+  }
+  
+  /* Main content area */
+  .app-main {
+    @apply flex-1 flex flex-col overflow-hidden bg-gray-50 dark:bg-gray-800;
+  }
+  
+  /* Footer */
+  .app-footer {
+    @apply p-3 border-t text-center bg-white dark:bg-gray-900 dark:border-gray-700;
+  }
+  
+  .app-button {
+    @apply mx-2 px-3 py-1 bg-primary hover:bg-primary-hover text-white rounded font-medium text-base transition-colors;
+  }
+  
+  .app-session-id {
+    @apply mx-2 text-base text-gray-900 dark:text-gray-100;
+  }
+  
+  /* Chat input */
+  .chat-input-container {
+    @apply border-t p-4 bg-white dark:bg-gray-900 dark:border-gray-700;
+  }
+  
+  .chat-input-error {
+    @apply text-red-600 mb-2 text-lg font-medium;
+  }
+  
+  .chat-input-form {
+    @apply flex;
+  }
+  
+  .chat-input-field {
+    @apply flex-1 p-3 text-lg border rounded-l focus:outline-none focus:ring-2 focus:ring-primary
+    dark:bg-gray-800 dark:border-gray-700 dark:text-gray-100;
+  }
+  
+  .chat-input-button {
+    @apply bg-primary text-white p-3 text-lg rounded-r disabled:opacity-50 
+    hover:bg-primary-hover font-medium transition-colors;
+  }
+  
+  /* Theme toggle */
+  .theme-toggle {
+    @apply p-2 rounded-full focus:outline-none transition-colors
+    hover:bg-gray-200 dark:hover:bg-gray-700;
+  }
+  
+  .theme-toggle-icon {
+    @apply h-6 w-6 text-gray-900 dark:text-gray-100;
+  }
+}
