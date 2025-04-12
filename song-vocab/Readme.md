@@ -1,3 +1,12 @@
+#Implementation attempt
+
+### main.py is hanged after a request is made with message:
+### "Please specify a tool to use or indicate FINISHED if done..."
+![alt text](hanged-main-app.png)
+
+### Spanish search result retrieval is successful
+![alt text](search-result-test.png)
+
 ### How to run the server
 
 ```sh

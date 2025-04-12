@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 async def test_serp_tool():
-    results = await search_web_serp("歌詞", max_results=5)
+    results = await search_web_serp("Alma LLanera", max_results=5)
     print(results)
 
 if __name__ == "__main__":
