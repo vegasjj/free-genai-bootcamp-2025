@@ -1,0 +1,6 @@
+outputs/*/*.json
+outputs/*/*.text
+.env
+
+*.pyc
+.venv
