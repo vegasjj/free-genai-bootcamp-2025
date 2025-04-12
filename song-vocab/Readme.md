@@ -1,4 +1,4 @@
-#Implementation attempt
+# Implementation attempt
 
 ### main.py is hanged after a request is made with message:
 ### "Please specify a tool to use or indicate FINISHED if done..."
